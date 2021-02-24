@@ -68,3 +68,6 @@ header {
   font-size: 16px;
   font-style: italic;
 }
+.trigger{
+  display: none;
+}
