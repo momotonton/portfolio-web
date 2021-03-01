@@ -1,5 +1,8 @@
 /* @media (size pc: min-width 1024) {} */
 @media (max-width: 768px){
+  /* html {
+    scroll-behavior: smooth;
+  } */
   .cd-section {
     height: auto;
   }
