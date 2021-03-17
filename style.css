@@ -57,6 +57,10 @@ header {
 .logo {
   float: left;
 }
+.logo img {
+  padding-top: 17px
+}
+
 .gnb {
   float: right;
 }
