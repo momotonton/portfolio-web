@@ -18,6 +18,7 @@
   /* header */
   header{
     transition: 0.5s;
+    z-index: 1;
   }
   header.active{
     background-color: #fff;
@@ -112,5 +113,9 @@
   .gototop.active {
     opacity: 1;
     transform: translateY(0);
+  }
+  .btn-hiring {
+    right: 20px;
+    bottom: 20px;
   }
 }
