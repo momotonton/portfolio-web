@@ -96,3 +96,36 @@ header {
 .btn-hiring:active {
   transform: scale(0);
 }
+/* ################ Section : awards winner ############### */
+.awards-inner{
+  height: 100%;
+  border-right: 1px solid #ddd;
+}
+.awards-inner > div{
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.about-awards {
+  background-color: #1a1f2f;
+  color: #fff;
+}
+.about-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+.victory-jump {
+  background-color: #fff;
+}
+.victory-jump img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
