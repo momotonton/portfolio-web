@@ -129,3 +129,33 @@ header {
   transform: translate(-50%, -50%);
   width: 80%;
 }
+.about-heading h2 {
+  margin: 0;
+}
+hr.bar {
+  width: 100px;
+  height: 4px;
+  border: none;
+  background-color: crimson;
+  margin: 15px auto;
+}
+.about-heading p {
+  color:#999;
+  font-size: 13px;
+  line-height: 1.5em;
+  /* margin-block: 40px; */
+}
+.view-awards {
+  color: #bbb;
+  border: 1px solid #bbb;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: 0.5s;
+  display: inline-block;
+  margin-top: 10px;
+}
+.view-awards:hover{
+  background-color: rgb(176, 214, 245);
+  color: white;
+  border-color: transparent;
+}
