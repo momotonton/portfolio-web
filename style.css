@@ -18,7 +18,7 @@ body {
   color: #222;
   font-size: 15px;
   margin: 0;
-  height: 108vh;
+  height: 100vh;
   background-color: #fff;
 }
 
@@ -102,11 +102,28 @@ header {
   height: 100%;
   background-color: #0dace3;
 }
-.about-items {}
-.item {}
-.item img {}
+.about-items {
+  border: 1px solid red;
+  width: 50%;
+  color: rgb(255, 255, 255);
+}
+.item {
+  overflow: hidden;
+}
+.item img {
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+  filter:invert(1)
+}
+.item h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
 .itme span {}
-.item p {}
+.item p {
+  overflow: hidden;
+}
 
 /* ################ Section : awards ############### */
 .awards-inner{
