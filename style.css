@@ -103,26 +103,44 @@ header {
   background-color: #0dace3;
 }
 .about-items {
-  border: 1px solid red;
-  width: 50%;
+  width: 60%;
   color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 100px;
 }
 .item {
   overflow: hidden;
+  margin-bottom: 50px;
 }
+.item:hover img{
+  filter: invert(0);
+}
+
 .item img {
+  transition: 0.5s;
   height: 100px;
   float: left;
   margin-right: 20px;
   filter:invert(1)
 }
+
+.item:hover h3{
+  color:#000;
+  letter-spacing: 1px;
+}
 .item h3 {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 500;
+  margin: 0;
+  transition: 0.5s;
+  letter-spacing: -1px;
 }
 .itme span {}
 .item p {
   overflow: hidden;
+  font-size: 18px;
 }
 
 /* ################ Section : awards ############### */
