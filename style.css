@@ -233,8 +233,41 @@ hr.bar {
 }
 .office {
   width: 60%;
+  padding-right: 100px;
 }
 .service {
   width: 40%;
 
 }
+.office b{
+  font-weight: normal;
+}
+.office h2 {
+  color: #4060f1;;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 5px;
+}
+.office p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.office span {
+  color: white;
+}
+.customer {
+  margin-top: 30px;
+}
+.service-item {
+  margin-bottom: 35px;
+}
+.service-item .fa{
+  color: #4060f1;
+  font-size: 40px;
+}
+.service-item h3 {
+  color: #fff;
+  font-size: 22px;
+  margin: 0;
+}
+.service-item p {}
