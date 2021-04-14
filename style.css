@@ -206,3 +206,35 @@ hr.bar {
   color: white;
   border-color: transparent;
 }
+
+/* ################ Section : location ############### */
+.location-inner {
+  background: url(images/background-location.jpg) no-repeat center center;
+  height: 100%;
+
+}
+.location-inner:before{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.feature {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #bbb;
+}
+.feature > div {
+  float: left;
+}
+.office {
+  width: 60%;
+}
+.service {
+  width: 40%;
+
+}
